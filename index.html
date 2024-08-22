@@ -24,10 +24,14 @@
         for(var i = 0; i === i; i++) {console.log(i)}
     }
     window.addEventListener("load", (event) => {
-        start();
+        try{
+            start();
+        }
     });
     window.onload = (event) => {
-      start();
+        try{
+            start();
+        }
     };
     </script>
     <center>
